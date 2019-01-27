@@ -65,7 +65,7 @@ enum Variant {
     VARIANT_0    = 0,  // Original CryptoNight or CryptoNight-Heavy
     VARIANT_1    = 1,  // CryptoNight variant 1 also known as Monero7 and CryptoNightV7
     VARIANT_TUBE = 2,  // Modified CryptoNight-Heavy (TUBE only)
-    VARIANT_XTL  = 3,  // Modified CryptoNight variant 1 (Stellite only)
+    VARIANT_MOX  = 3,  // Modified CryptoNight variant RED (MOX only)
     VARIANT_MSR  = 4,  // Modified CryptoNight variant 1 (Masari only)
     VARIANT_XHV  = 5,  // Modified CryptoNight-Heavy (Haven Protocol only)
     VARIANT_XAO  = 6,  // Modified CryptoNight variant 0 (Alloy only)
