@@ -50,7 +50,7 @@
     if (BASE == xmrig::VARIANT_1) { \
         const uint8_t tmp = reinterpret_cast<const uint8_t*>(p)[11]; \
         static const uint32_t table = 0x75310; \
-        const uint8_t index = (((tmp >> 3) & 6) | (tmp & 1)) << 1; \
+        const uint8_t index = (((tmp >> 8) & 6) | (tmp & 1)) << 1; \
         ((uint8_t*)(p))[11] = tmp ^ ((table >> index) & 0x30); \
     }
 
